@@ -1,0 +1,16 @@
+ros-humble-clearpath-simulator (0.0.2-1bullseye) bullseye; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-simulator (0.0.1-1bullseye) bullseye; urgency=high
+
+  * Renamed clearpath_simulator to clearpath_gz
+    clearpath_simulator is now a metapackage
+    Added clearpath_generator_gz
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+
