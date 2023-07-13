@@ -2,6 +2,11 @@
 Changelog for package clearpath_generator_gz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2023-07-13)
+------------------
+* Updated imports and getters
+* Contributors: Luis Camero
+
 0.0.1 (2023-07-05)
 ------------------
 * Changed colour to color
