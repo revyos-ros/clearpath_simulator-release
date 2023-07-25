@@ -1,0 +1,33 @@
+ros-humble-clearpath-generator-gz (0.0.3-1jammy) jammy; urgency=high
+
+  * Linting
+  * Added prefix launch arg for A200
+  * Updated param generator 'use_sim_time' implementation
+  * Launch generator cleanup
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-gz (0.0.2-1jammy) jammy; urgency=high
+
+  * Updated imports and getters
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 04:00:00 -0000
+
+ros-humble-clearpath-generator-gz (0.0.1-1jammy) jammy; urgency=high
+
+  * Changed colour to color
+  * Added dependencies.repos
+    Updated topic names to match API
+  * Support for empty namespace
+    Generate tf and cmd_vel bridges
+  * Namespacing support
+  * Renamed clearpath_simulator to clearpath_gz
+    clearpath_simulator is now a metapackage
+    Added clearpath_generator_gz
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 04:00:00 -0000
+
+
