@@ -2,6 +2,12 @@
 Changelog for package clearpath_gz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2023-12-08)
+------------------
+* Lifted platform to 0.3 m
+* Updated links in the warehouse
+* Contributors: Luis Camero
+
 0.1.3 (2023-11-03)
 ------------------
 * closes `#16 <https://github.com/clearpathrobotics/clearpath_simulator/issues/16>`_ (`#17 <https://github.com/clearpathrobotics/clearpath_simulator/issues/17>`_)
