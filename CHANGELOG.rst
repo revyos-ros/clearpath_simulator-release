@@ -2,18 +2,9 @@
 Changelog for package clearpath_gz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.2.2 (2024-01-15)
+0.3.0 (2024-09-19)
 ------------------
-* Add all sourced ros packages to gazebo resource path to address user workspaces with custom meshes
-* Contributors: Hilary Luo
-
-0.2.1 (2023-12-11)
-------------------
-
-0.2.0 (2023-12-08)
-------------------
-* Lifted platform to 0.3 m
-* Updated links in the warehouse
+* Added manipulators to generator and spawn
 * Contributors: Luis Camero
 
 0.2.6 (2024-07-25)
@@ -39,6 +30,20 @@ Changelog for package clearpath_gz
 * Lifted platform to 0.3 m
 * Updated links in the warehouse
 * Contributors: Hilary Luo, Luis Camero, Tony Baltovski
+
+0.2.2 (2024-01-15)
+------------------
+* Add all sourced ros packages to gazebo resource path to address user workspaces with custom meshes
+* Contributors: Hilary Luo
+
+0.2.1 (2023-12-11)
+------------------
+
+0.2.0 (2023-12-08)
+------------------
+* Lifted platform to 0.3 m
+* Updated links in the warehouse
+* Contributors: Luis Camero
 
 0.1.3 (2023-11-03)
 ------------------
