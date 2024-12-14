@@ -2,6 +2,11 @@
 Changelog for package clearpath_simulator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2024-11-25)
+------------------
+* Added minimum version.
+* Contributors: Tony Baltovski
+
 0.3.0 (2024-09-19)
 ------------------
 * Fixed changelogs

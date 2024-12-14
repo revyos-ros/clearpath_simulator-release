@@ -2,6 +2,11 @@
 Changelog for package clearpath_generator_gz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.0 (2024-11-25)
+------------------
+* Added minimum version.
+* Contributors: Tony Baltovski
+
 0.3.0 (2024-09-19)
 ------------------
 * Removed prefix_launch_arg no longer used
