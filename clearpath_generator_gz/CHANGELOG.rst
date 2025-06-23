@@ -2,10 +2,35 @@
 Changelog for package clearpath_generator_gz
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.0 (2024-11-25)
+2.3.1 (2025-04-30)
 ------------------
-* Added minimum version.
-* Contributors: Tony Baltovski
+
+2.3.0 (2025-04-11)
+------------------
+* Add exception handlers to the generators for Unsupported* exceptions (`#78 <https://github.com/clearpathrobotics/clearpath_simulator/issues/78>`_)
+* Contributors: Chris Iverach-Brereton
+
+2.2.0 (2025-03-11)
+------------------
+
+2.0.0 (2025-01-30)
+------------------
+* Fix typo in IMU bridge node
+* Non-functional linting issues resulting in CI failures (`#67 <https://github.com/clearpathrobotics/clearpath_simulator/issues/67>`_)
+* Add A300 to supported platforms (`#63 <https://github.com/clearpathrobotics/clearpath_simulator/issues/63>`_)
+  * Add A300 to the supported platforms
+  * Move the cmd_vel and odom bridges to a common components array
+* Implement PTZ action server interface (`#65 <https://github.com/clearpathrobotics/clearpath_simulator/issues/65>`_)
+  * Add remappings & bridge configuration for the PTZ joint states
+  * Remap the raw velocity topics from Gazebo, implement the PTZ action server interface. Add a 5x digital zoom to simulate real-world zoom control
+* Add pan & tilt velocity commands (`#64 <https://github.com/clearpathrobotics/clearpath_simulator/issues/64>`_)
+* Rename Gazbo libraries (`#55 <https://github.com/clearpathrobotics/clearpath_simulator/issues/55>`_)
+  * IGN_GAZEBO_RESOURCE_PATH -> GZ_SIM_RESOURCE_PATH
+  * More ignition -> gz fixes. Use stamped messages for cmd_vel
+  * Change the clock bridge to unidirectional instead of bidirectional
+* Add a newline that the source CI is complaining about that didn't show up locally
+* Fix formatting for Jazzy
+* Contributors: Chris Iverach-Brereton
 
 0.3.0 (2024-09-19)
 ------------------
