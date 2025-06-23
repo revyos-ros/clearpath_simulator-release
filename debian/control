@@ -1,0 +1,12 @@
+Source: ros-jazzy-clearpath-gz
+Section: misc
+Priority: optional
+Maintainer: Luis Camero <lcamero@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-clearpath-gz
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-clearpath-common, ros-jazzy-clearpath-generator-gz, ros-jazzy-clearpath-viz, ros-jazzy-gz-ros2-control, ros-jazzy-ros-gz, ros-jazzy-ros-workspace
+Description: Clearpath Gazebo Simulator
