@@ -1,0 +1,169 @@
+ros-jazzy-clearpath-gz (2.3.1-1noble) noble; urgency=high
+
+  * Convert generate to a boolean in if-statement (#84 <https://github.com/clearpathrobotics/clearpath_simulator/issues/84>)
+  * Contributors: Chris Iverach-Brereton
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 30 Apr 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (2.3.0-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 11 Apr 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (2.2.0-1noble) noble; urgency=high
+
+  * Forward port: Add argument to disable generation  (#75 <https://github.com/clearpathrobotics/clearpath_simulator/issues/75>)
+    * Add argument to disable generation (#74 <https://github.com/clearpathrobotics/clearpath_simulator/issues/74>)
+  * Contributors: luis-camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 11 Mar 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (2.0.0-1noble) noble; urgency=high
+
+  * Minor cleanup to remove unnecessary/relocated variables
+  * Add GeoTif files, instructions for generating map tiles (#60 <https://github.com/clearpathrobotics/clearpath_simulator/issues/60>)
+    * Add the geotif files & instructions for generating map tiles of the outdoor worlds. Add a column to the worlds table indicating the rough geographic region the world is tagged with
+    * Add the .gitignore file
+  * Rotate the pipeline world so the solar panels face south. Adjust the pose of the ground so the robot's default spawn position is on flatter ground
+  * Rotate the solar_farm world so the solar panels are correctly facing south
+  * Increase the XY scaling of the pipeline world (#58 <https://github.com/clearpathrobotics/clearpath_simulator/issues/58>)
+  * Add more simulation environments (#57 <https://github.com/clearpathrobotics/clearpath_simulator/issues/57>)
+    * Add the old cpr_inspection -> pipeline, cpr_agriculture -> solar_farm worlds
+    * Add the office & office_construction -> construction worlds
+    * Fix the path to the solar_farm models
+    * Add the orchard world
+    * Fix the world names for the office & construction worlds
+    * Add Dave N as an author, since he created the meshes used in the new worlds
+  * Rename Gazbo libraries (#55 <https://github.com/clearpathrobotics/clearpath_simulator/issues/55>)
+    * IGN_GAZEBO_RESOURCE_PATH -> GZ_SIM_RESOURCE_PATH
+    * More ignition -> gz fixes. Use stamped messages for cmd_vel
+    * Change the clock bridge to unidirectional instead of bidirectional
+  * Fix import orders in clearpath_gz
+  * Play sim automatically (#52 <https://github.com/clearpathrobotics/clearpath_simulator/issues/52>)
+    * Play sim automatically
+    * Accept auto_start as a launch configuration to support previous behavior although default is true
+  * Rename ign_ -> gz_ for gazebo dependencies
+  * Contributors: Chris Iverach-Brereton, Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 30 Jan 2025 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.3.0-1noble) noble; urgency=high
+
+  * Added manipulators to generator and spawn
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 19 Sep 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.6-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 25 Jul 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.5-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Tue, 28 May 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.4-1noble) noble; urgency=high
+
+  * Commented out models that are currently broken in the fuel server
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 15 Apr 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.3-1noble) noble; urgency=high
+
+  * 0.2.2
+  * Changes.
+  * Add all sourced ros packages to gazebo resource path to address user workspaces with custom meshes
+  * 0.2.1
+  * Changes.
+  * 0.2.0
+  * Changes.
+  * Lifted platform to 0.3 m
+  * Updated links in the warehouse
+  * Contributors: Hilary Luo, Luis Camero, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 18 Jan 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.2-1noble) noble; urgency=high
+
+  * Add all sourced ros packages to gazebo resource path to address user workspaces with custom meshes
+  * Contributors: Hilary Luo
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 15 Jan 2024 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 11 Dec 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.2.0-1noble) noble; urgency=high
+
+  * Lifted platform to 0.3 m
+  * Updated links in the warehouse
+  * Contributors: Luis Camero
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 08 Dec 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.1.3-1noble) noble; urgency=high
+
+  * closes #16 <https://github.com/clearpathrobotics/clearpath_simulator/issues/16> (#17 <https://github.com/clearpathrobotics/clearpath_simulator/issues/17>)
+    Fixes Lidar rays when running without a GPU, still works with GPU
+  * Contributors: Arthur Gomes
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 03 Nov 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 04 Oct 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.1.1-1noble) noble; urgency=high
+
+
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Fri, 25 Aug 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.1.0-1noble) noble; urgency=high
+
+  * Linter
+  * Renamed UST10 to UST
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 17 Aug 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.0.3-1noble) noble; urgency=high
+
+  * Linting
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Mon, 24 Jul 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.0.2-1noble) noble; urgency=high
+
+  * [clearpath_gz] Removed ros_gz from CMakeLists.txt.
+  * Updated imports and getters
+  * Contributors: Luis Camero, Tony Baltovski
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Thu, 13 Jul 2023 00:00:00 -0000
+
+ros-jazzy-clearpath-gz (0.0.1-1noble) noble; urgency=high
+
+  * Renamed launch file to simulation.launch.py
+  * Support for empty namespace
+    Generate tf and cmd_vel bridges
+  * Namespacing support
+  * Renamed clearpath_simulator to clearpath_gz
+    clearpath_simulator is now a metapackage
+    Added clearpath_generator_gz
+  * Contributors: Roni Kreinin
+
+ -- Luis Camero <lcamero@clearpathrobotics.com>  Wed, 05 Jul 2023 00:00:00 -0000
+
+
