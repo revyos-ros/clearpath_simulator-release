@@ -1,3 +1,29 @@
+## clearpath_simulator (jazzy) - 2.3.1-1
+
+The packages in the `clearpath_simulator` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy clearpath_simulator --override-release-repository-push-url git@github.com:revyos-ros/clearpath_simulator-release.git` on `Mon, 23 Jun 2025 04:19:51 -0000`
+
+These packages were released:
+- `clearpath_generator_gz`
+- `clearpath_gz`
+- `clearpath_simulator`
+
+Version of package(s) in repository `clearpath_simulator`:
+
+- upstream repository: https://github.com/clearpathrobotics/clearpath_simulator.git
+- release repository: https://github.com/revyos-ros/clearpath_simulator-release.git
+- rosdistro version: `2.3.1-1`
+- old version: `null`
+- new version: `2.3.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## clearpath_simulator (humble) - 1.0.0-1
 
 The packages in the `clearpath_simulator` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble clearpath_simulator --override-release-repository-push-url git@github.com:revyos-ros/clearpath_simulator-release.git` on `Sat, 14 Dec 2024 22:25:01 -0000`
